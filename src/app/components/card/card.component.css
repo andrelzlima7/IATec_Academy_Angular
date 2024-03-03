@@ -1,0 +1,83 @@
+.card {
+  background: var(--white);
+  padding: 5rem 3rem;
+  border-radius: 0.5rem;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  line-height: 1.5rem;
+  position: relative;
+}
+
+.card:hover {
+  background: linear-gradient(to right, #f66847, #fd8f1e);
+  color: var(--white);
+}
+
+.card:hover > button {
+  color: var(--white);
+}
+
+h3 {
+  font-size: 1.3rem;
+  position: absolute;
+  top: 5.5rem;
+}
+
+.card:hover > span {
+  color: #ea7230;
+}
+
+button {
+  border: none;
+  background: transparent;
+  letter-spacing: 0.3rem;
+  color: var(--orange);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.card span {
+  font-size: 8rem;
+  color: #efefefa9;
+}
+
+@media (max-width: 1600px){
+  h3 {
+    font-size: 1rem;
+  }
+
+  button {
+    letter-spacing: 0.05rem;
+  }
+
+  .card span {
+    font-size: 7rem;
+    color: #efefefa9;
+  }
+}
+
+@media (max-width: 1024px) {
+  h3 {
+    font-size: .8rem;
+  }
+
+  button {
+    letter-spacing: 0.05rem;
+  }
+
+  .card span {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 760px) {
+  h3 {
+    font-size: .8rem;
+  }
+
+  .card span {
+    font-size: 5rem;
+  }
+}

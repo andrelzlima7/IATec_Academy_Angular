@@ -1,0 +1,38 @@
+div {
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  text-align: center;
+  margin-bottom: 10rem;
+}
+
+p {
+  color: gray;
+}
+
+img {
+  width: 5rem;
+  margin: auto;
+}
+
+@media (max-width: 1600px) {
+  img {
+    width: 3rem;
+  }
+
+  div {
+    margin-bottom: 5rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  img {
+    width: 3rem;
+  }
+
+  div {
+    margin-bottom: 3rem;
+  }
+}
+

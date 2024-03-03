@@ -1,0 +1,34 @@
+header {
+  background: var(--dark_gray);
+}
+
+main {
+  margin: 5rem 25rem;
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+main h3{
+    text-align: center;
+}
+
+@media (max-width: 1600px){
+  main {
+    margin: 5rem 10rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  main {
+    margin: 5rem 1rem;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 760px) {
+  main {
+    justify-content: center;
+  }
+}
